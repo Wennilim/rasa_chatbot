@@ -1,0 +1,220 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - 嗨
+    - 你好
+    - 哈喽
+    - 早上好
+    - 中午好
+    - 晚上好
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - 下午见
+    - 拜拜
+    - 拜
+    - 一会见
+    
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - 是的
+    - 确实
+    - 当然
+    - 听起来不错
+    - 对滴
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - 不
+    - 没有
+    - 绝不
+    - 我不这么认为
+    - 不可能
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+    - 完美
+    - 很好
+    - 好意外啊
+    - 真棒
+    - 我觉得挺好的
+    - 极好
+    - 非常完美
+    - 非常好
+    - 太好了
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+    - 伤心
+    - 我感觉非常不好
+    - 失望
+    - 糟糕
+    - 非常伤心
+    - 不好
+    - 非常不好
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - 你是机器人吗？
+    - 你是人类么？
+    - 我正在和机器人交谈？
+
+- intent: fever
+  examples: |
+    - 头很烧
+    - 额头很烧
+    - 发烧
+    - 头很重
+    - 肌肉疼痛
+    - 发冷
+
+- intent: runny_nose
+  examples: |
+    - 流鼻涕
+    - 伤风
+    - 鼻塞
+
+- intent: cough
+  examples: |
+    - 咳嗽
+    - 干咳
+    - 喉咙发痒
+    
+- intent: common_cold
+  examples: |
+    - 鼻塞
+    - 打喷嚏
+    - 发热
+    - 发烧
+    - 咳嗽
+    - 头痛
+    
+- intent: food_poison
+  examples: |
+    - 额头冒汗
+    - 脸色发白
+    - 上吐下泻
+    - 呕吐不止
+    - 一直腹泻
+    - 没有胃口
+    - 觉得恶心
+    - 剧烈呕吐和腹泻
+    - 中上腹部疼痛
+    - 口干
+    - 眼窝下陷
+    - 皮肤弹性消失
+    - 肢体冰凉
+    - 脉搏细弱
+    - 血压降低
+    - 发烧
+    - 休克
+       
+- intent: influenza
+  examples: |
+    - 鼻塞
+    - 流鼻涕
+    - 发高烧
+    - 喉咙痛
+    - 咳嗽
+    - 头痛
+    - 感觉发冷
+    - 肌肉和身体酸痛
+    - 疲乏或疲劳
+    
+- intent: covid_19
+  examples: |
+    - 发热或发烧
+    - 乏力
+    - 味觉和嗅觉丧失
+    - 肌肉酸痛
+    - 咳嗽
+    - 头痛
+    - 腹泻
+    - 皮疹
+    - 手指或脚趾变色
+    - 眼睛发红或发炎
+    - 呼吸困难或气短
+    - 出现语言障碍或神智不清
+    - 胸口疼痛
+    - 血氧值数低于90
+    
+- intent: chicken_pox
+  examples: |
+    - 发热或发烧
+    - 乏力或倦怠
+    - 小水泡
+    - 发痒难耐
+    - 伤口结痂
+    - 小水泡蔓延全身
+    
