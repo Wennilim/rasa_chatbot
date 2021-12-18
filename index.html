@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<div id="webchat">
+  
+</div>
+<style>
+  body {
+    background-color: lightblue;
+    background-image: url("static/js/family-doctor.jpg");
+  }
+
+  </style>
+<h2 style="text-align: center;font-size: 50px;">家庭医生</h2>
+<script src="static/js/index.min.js">
+  
+</script>
+<!--https://cdn.jsdelivr.net/npm/rasa-webchat@1.0.1/lib/index.js
+https://cdn.jsdelivr.net/npm/rasa-webchat/lib/index.min.js
+-->
+<link rel="stylesheet" type="text/css" href="https://">
+
+<script>!(function () {
+  
+  let e = document.createElement("script"),
+    t = document.head || document.getElementsByTagName("head")[0];
+  (e.src =
+    "static/js/index.js"),
+    (e.async = !0),
+    (e.onload = () => {
+      window.WebChat.default(
+        { 
+          selector: "#webchat",
+    initPayload: "/get_started",
+    customData: {"language": "en"}, // arbitrary custom data. Stay minimal as this will be added to the socket
+    socketUrl: "http://localhost:5005",
+    customMessageDelay: (message) => {
+    let delay = message.length * 30;
+    if (delay > 3 * 200) delay = 3 * 200;
+    if (delay < 100) delay = 100;
+    return delay;
+  },
+    
+    socketPath: "/socket.io/",
+    title: "Family Medicine (家庭医生）",
+    tooltipPayload: "/get_started",
+    tooltip: true,    
+    tooltipDelay: 500,
+    subtitle: "Powered by Group 4",
+    connectingText: "Waiting for server...",
+    profileAvatar: "static/js/doctor.png",
+    openLauncherImage: "https://",
+
+    params: {"storage": "session"}, 
+    
+    mainColor: "#ffd600",
+    userBackgroundColor: "#ffd600",
+    userTextColor: "#020a02",
+    showMessageDate: false,
+    inputTextFieldHint: "Hi.Type your message here...",
+    badge: " ",
+    displayUnreadCount: true,
+    isChatOpen: false,
+    embedded: false,
+    showCloseButton: true,
+    fullScreenMode: true,
+    showFullScreenButton: true,
+    docViewer: false,
+    
+   
+        },
+        null
+      );
+    }),
+    t.insertBefore(e, t.firstChild);
+})();
+
+
+
+</script>
+
+</html>
