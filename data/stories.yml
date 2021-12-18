@@ -1,0 +1,110 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: fever 
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: fever
+  - action: utter_solution_fever
+  - action: utter_other_symptoms
+  - intent: affirm 
+  - action: utter_goodbye
+
+- story: runny nose 
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: runny_nose
+  - action: utter_solution_runny_nose
+  - action: utter_other_symptoms
+  - intent: affirm  
+  - action: utter_goodbye
+
+- story: cough
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: cough
+  - action: utter_solution_cough
+  - action: utter_other_symptoms
+  - intent: affirm  
+  - action: utter_goodbye
+  
+ - story: common cold
+   steps:
+   - intent: greet
+   - action: utter_greet
+   - intent: common_cold
+   - action: utter_solution_common_cold
+   - intent: utter_other_symptoms
+   - intent: affirm
+   - action: utter_goodbye
+   
+ - story: food poison
+   steps:
+   - intent: greet
+   - action: utter_greet
+   - intent: food_poison
+   - action: utter_solution_food_poison
+   - intent: utter_other_symptoms
+   - intent: affirm
+   - action: utter_goodbye
+
+ - story: influenza
+   steps:
+   - intent: greet
+   - action: utter_greet
+   - intent: influenza
+   - action: utter_solution_influenza
+   - intent: utter_other_symptoms
+   - intent: affirm
+   - action: utter_goodbye
+   
+ - story: covid
+   steps:
+   - intent: greet
+   - action: utter_greet
+   - intent: covid_19
+   - action: utter_solution_covid_19
+   - intent: utter_other_symptoms
+   - intent: affirm
+   - action: utter_goodbye
+   
+ - story: chicken pox
+   steps:
+   - intent: greet
+   - action: utter_greet
+   - intent: chicken_pox
+   - action: utter_solution_chicken_pox
+   - intent: utter_other_symptoms
+   - intent: affirm
+   - action: utter_goodbye
