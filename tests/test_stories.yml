@@ -89,3 +89,10 @@ stories:
       are you a bot?
     intent: bot_challenge
   - action: utter_iamabot
+
+- story: common cold
+  steps:
+  - user: |
+      I seem to have a cold.
+    intent: common_cold
+  - action: utter_solution_common_cold
