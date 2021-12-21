@@ -59,52 +59,182 @@ stories:
   - intent: affirm  
   - action: utter_goodbye
   
- - story: common cold
-   steps:
-   - intent: greet
-   - action: utter_greet
-   - intent: common_cold
-   - action: utter_solution_common_cold
-   - intent: utter_other_symptoms
-   - intent: affirm
-   - action: utter_goodbye
-   
- - story: food poison
-   steps:
-   - intent: greet
-   - action: utter_greet
-   - intent: food_poison
-   - action: utter_solution_food_poison
-   - intent: utter_other_symptoms
-   - intent: affirm
-   - action: utter_goodbye
+- story: common cold
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: common_cold
+  - action: utter_solution_common_cold
+  - intent: utter_other_symptoms
+  - intent: affirm
+  - action: utter_goodbye
+  
+- story: food poison
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: food_poison
+  - action: utter_solution_food_poison
+  - intent: utter_other_symptoms
+  - intent: affirm
+  - action: utter_goodbye
 
- - story: influenza
-   steps:
-   - intent: greet
-   - action: utter_greet
-   - intent: influenza
-   - action: utter_solution_influenza
-   - intent: utter_other_symptoms
-   - intent: affirm
-   - action: utter_goodbye
+- story: influenza
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: influenza
+  - action: utter_solution_influenza
+  - intent: utter_other_symptoms
+  - intent: affirm
+  - action: utter_goodbye
    
- - story: covid
-   steps:
-   - intent: greet
-   - action: utter_greet
-   - intent: covid_19
-   - action: utter_solution_covid_19
-   - intent: utter_other_symptoms
-   - intent: affirm
-   - action: utter_goodbye
+- story: covid
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: covid_19
+  - action: utter_solution_covid_19
+  - intent: utter_other_symptoms
+  - intent: affirm
+  - action: utter_goodbye
    
- - story: chicken pox
-   steps:
-   - intent: greet
-   - action: utter_greet
-   - intent: chicken_pox
-   - action: utter_solution_chicken_pox
-   - intent: utter_other_symptoms
-   - intent: affirm
-   - action: utter_goodbye
+- story: diarrhea
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diarrhea
+  - action: utter_solution_diarrhea
+  - intent: utter_other_symptoms
+  - intent: affirm
+  - action: utter_goodbye
+  
+- story: headache
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: headache
+  - action: utter_solution_headache
+  - intent: utter_other_symptoms
+  - intent: affirm
+  - action: utter_goodbye 
+  
+- story: diabetes
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diabetes
+  - action: utter_solution_diabetes
+  - intent: utter_other_symptoms
+  - intent: affirm
+  - action: utter_goodbye 
+
+- story: diabetes
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diabetes
+  - action: utter_solution_diabetes
+  - intent: utter_other_symptoms
+  - intent: affirm
+  - action: utter_goodbye 
+   
+- story: hypertension
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: hypertension
+  - action: utter_solution_hypertension
+  - intent: utter_other_symptoms
+  - intent: affirm
+  - action: utter_goodbye
+  
+- story: hairloss
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: hairloss
+  - action: utter_solution_hairloss
+  - intent: utter_other_symptoms
+  - intent: affirm
+  - action: utter_goodbye
+  
+- story: hypotension
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: hypotension
+  - action: utter_solution_hypotension
+  - intent: utter_other_symptoms
+  - intent: affirm
+  - action: utter_goodbye
+  
+- story: anemia
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: anemia
+  - action: utter_solution_anemia
+  - intent: utter_other_symptoms
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: arthritis
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: arthritis
+  - action: utter_solution_arthritis
+  - intent: utter_other_symptoms
+  - intent: affirm
+  - action: utter_goodbye
+  
+- story: rheumatism
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: rheumatism
+  - action: utter_solution_rheumatism
+  - intent: utter_other_symptoms
+  - intent: affirm
+  - action: utter_goodbye
+  
+- story: osteoporosis
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: osteoporosis
+  - action: utter_solution_osteoporosis
+  - intent: utter_other_symptoms
+  - intent: affirm
+  - action: utter_goodbye
+  
+- story: obesity
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: obesity
+  - action: utter_solution_obesity
+  - intent: utter_other_symptoms
+  - intent: affirm
+  - action: utter_goodbye
+  
+- story: menstrual_cramps
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: menstrual_cramps
+  - action: utter_solution_menstrual_cramps
+  - intent: utter_other_symptoms
+  - intent: affirm
+  - action: utter_goodbye
+  
+- story: acne
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: acne
+  - action: utter_solution_acne
+  - intent: utter_other_symptoms
+  - intent: affirm
+  - action: utter_goodbye
