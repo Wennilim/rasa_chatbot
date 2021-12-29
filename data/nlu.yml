@@ -21,8 +21,6 @@ nlu:
     - cee you later
     - good night
     - bye
-    - goodbye
-    - have a nice day
     - see you around
     - bye bye
     - see you later
@@ -56,9 +54,6 @@ nlu:
     - n
     - never
     - I don't think so
-    - don't like that
-    - no way
-    - not really
     - 不
     - 没有
     - 绝不
@@ -81,18 +76,6 @@ nlu:
   examples: |
     - my day was horrible
     - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
     - 伤心
     - 我感觉非常不好
     - 失望
@@ -102,10 +85,6 @@ nlu:
     - 非常不好
 - intent: bot_challenge
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
     - 你是机器人吗？
     - 你是人类么？
     - 我正在和机器人交谈？
@@ -297,6 +276,7 @@ nlu:
     - 还有什么解决方案关于骨质疏松症呢 
 - intent: obesity
   examples: |
+    - 很胖
     - 肥胖症
     - 肥胖症怎么办
     - 过胖该怎么办
