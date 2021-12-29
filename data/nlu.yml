@@ -7,15 +7,6 @@ nlu:
     - hello
     - hi
     - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
     - nihao
     - 嗨
     - 你好
@@ -23,7 +14,6 @@ nlu:
     - 早上好
     - 中午好
     - 晚上好
-
 - intent: goodbye
   examples: |
     - cu
@@ -55,16 +45,11 @@ nlu:
   examples: |
     - yes
     - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
     - 是的
     - 确实
     - 当然
     - 听起来不错
     - 对滴
-
 - intent: deny
   examples: |
     - no
@@ -79,23 +64,10 @@ nlu:
     - 绝不
     - 我不这么认为
     - 不可能
-
 - intent: mood_great
   examples: |
     - perfect
     - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
     - 完美
     - 很好
     - 好意外啊
@@ -105,7 +77,6 @@ nlu:
     - 非常完美
     - 非常好
     - 太好了
-
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -129,7 +100,6 @@ nlu:
     - 非常伤心
     - 不好
     - 非常不好
-
 - intent: bot_challenge
   examples: |
     - are you a bot?
@@ -142,7 +112,6 @@ nlu:
     - 你叫什么名字
     - 你的名字是什么
     - 你是谁
-
 - intent: fever
   examples: |
     - 头很烧
@@ -155,7 +124,6 @@ nlu:
     - 发烧怎么办
     - 发烧吃什么
     - 发烧该怎么办
-
 - intent: runny_nose
   examples: |
     - 流鼻涕
@@ -166,7 +134,6 @@ nlu:
     - 流鼻涕怎么办
     - 伤风怎么办
     - 鼻塞呼吸不顺畅怎么办
-
 - intent: cough
   examples: |
     - 咳嗽
@@ -358,4 +325,4 @@ nlu:
     - 青春痘该怎么吃才不长
     - 青春痘吃什么才能好
     - 怎么吃才能不长痘痘
-    - 还有什么解决方案关于青春痘呢     
+    - 还有什么解决方案关于青春痘呢  
