@@ -7,15 +7,6 @@ nlu:
     - hello
     - hi
     - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
     - nihao
     - 嗨
     - 你好
@@ -23,7 +14,6 @@ nlu:
     - 早上好
     - 中午好
     - 晚上好
-
 - intent: goodbye
   examples: |
     - cu
@@ -31,8 +21,6 @@ nlu:
     - cee you later
     - good night
     - bye
-    - goodbye
-    - have a nice day
     - see you around
     - bye bye
     - see you later
@@ -55,47 +43,26 @@ nlu:
   examples: |
     - yes
     - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
     - 是的
     - 确实
     - 当然
     - 听起来不错
     - 对滴
-
 - intent: deny
   examples: |
     - no
     - n
     - never
     - I don't think so
-    - don't like that
-    - no way
-    - not really
     - 不
     - 没有
     - 绝不
     - 我不这么认为
     - 不可能
-
 - intent: mood_great
   examples: |
     - perfect
     - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
     - 完美
     - 很好
     - 好意外啊
@@ -105,23 +72,10 @@ nlu:
     - 非常完美
     - 非常好
     - 太好了
-
 - intent: mood_unhappy
   examples: |
     - my day was horrible
     - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
     - 伤心
     - 我感觉非常不好
     - 失望
@@ -129,20 +83,14 @@ nlu:
     - 非常伤心
     - 不好
     - 非常不好
-
 - intent: bot_challenge
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
     - 你是机器人吗？
     - 你是人类么？
     - 我正在和机器人交谈？
     - 你叫什么名字
     - 你的名字是什么
     - 你是谁
-
 - intent: fever
   examples: |
     - 头很烧
@@ -155,7 +103,6 @@ nlu:
     - 发烧怎么办
     - 发烧吃什么
     - 发烧该怎么办
-
 - intent: runny_nose
   examples: |
     - 流鼻涕
@@ -166,7 +113,6 @@ nlu:
     - 流鼻涕怎么办
     - 伤风怎么办
     - 鼻塞呼吸不顺畅怎么办
-
 - intent: cough
   examples: |
     - 咳嗽
@@ -330,6 +276,7 @@ nlu:
     - 还有什么解决方案关于骨质疏松症呢 
 - intent: obesity
   examples: |
+    - 很胖
     - 肥胖症
     - 肥胖症怎么办
     - 过胖该怎么办
@@ -358,4 +305,4 @@ nlu:
     - 青春痘该怎么吃才不长
     - 青春痘吃什么才能好
     - 怎么吃才能不长痘痘
-    - 还有什么解决方案关于青春痘呢     
+    - 还有什么解决方案关于青春痘呢  
