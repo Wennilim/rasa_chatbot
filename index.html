@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<div id="webchat">
+  
+</div>
+<style>
+  body {
+    background-color: lightblue;
+    background-image: url("static/js/family-doctor.jpg");
+  }
+  .arrow-5 {
+  width:100px;
+  height:40px;
+  display: grid;
+  overflow: hidden;
+  color:yellow;
+}
+.arrow-5:before,
+.arrow-5:after {
+  content: "";
+  grid-area: 1/1;
+  background: currentColor;
+  clip-path: polygon(0 10px,calc(100% - 15px) 10px,calc(100% - 15px) 0,100% 50%,calc(100% - 15px) 100%,calc(100% - 15px) calc(100% - 10px),0 calc(100% - 10px));
+  animation: a5 1s infinite;
+  transform: translate(calc(0% + var(--s,0%)));
+ 
+}
+
+.arrow-5:after {
+  --s:-100%;
+}
+
+@keyframes a5 {
+  80%,100%{transform: translate(calc(100% + var(--s,0%)))}
+}
+
+
+  </style>
+<h2 style="text-align: center;font-size: 50px;">家庭医学咨询师 HealBot</h2>
+<h3 style="position: absolute;right: 150px;bottom: 40px;font-size: 40px;background-color:cornsilk;">Let's have a chat in Chinese</h3>
+<div class="arrow-5" style="position: absolute;bottom:30px;right: 100px;"></div> 
+<script src="static/js/index.min.js">
+  
+</script>
+<!--https://cdn.jsdelivr.net/npm/rasa-webchat@1.0.1/lib/index.js
+https://cdn.jsdelivr.net/npm/rasa-webchat/lib/index.min.js
+-->
+<link rel="stylesheet" type="text/css" href="https://">
+
+<script>!(function () {
+  
+  let e = document.createElement("script"),
+    t = document.head || document.getElementsByTagName("head")[0];
+  (e.src =
+    "static/js/index.js"),
+    (e.async = !0),
+    (e.onload = () => {
+      window.WebChat.default(
+        { 
+          selector: "#webchat",
+    initPayload: "",///get_started
+    customData: {"language": "en"}, // arbitrary custom data. Stay minimal as this will be added to the socket
+    socketUrl: "http://localhost:5005",
+    customMessageDelay: (message) => {
+    let delay = message.length * 30;
+    if (delay > 3 * 200) delay = 3 * 200;
+    if (delay < 100) delay = 100;
+    return delay;
+  },
+    
+    socketPath: "/socket.io/",
+    title: "家庭医学咨询师 (HealBot）",
+    tooltipPayload: "",///get_started"
+    tooltip: true,    
+    tooltipDelay: 500,
+    subtitle: "Powered by Group 4",
+    connectingText: "Waiting for server...",
+    profileAvatar: "static/js/doctor.png",
+    openLauncherImage: "https://",
+
+    params: {"storage": "session"}, 
+    
+    mainColor: "#ffd600",
+    userBackgroundColor: "#ffd600",
+    userTextColor: "#020a02",
+    showMessageDate: false,
+    inputTextFieldHint: "Hi.Type your message here...",
+    badge: " ",
+    displayUnreadCount: true,
+    isChatOpen: false,
+    embedded: false,
+    showCloseButton: true,
+    fullScreenMode: true,
+    showFullScreenButton: true,
+    docViewer: false,
+    
+   
+        },
+        null
+      );
+    }),
+    t.insertBefore(e, t.firstChild);
+})();
+
+
+
+</script>
+
+</html>
