@@ -29,5 +29,5 @@ Change directory to your folder
 Then, click the index.html file.
 
 <p align="center">
-  <img src="pic.jpg" width="1000" title="HealBot">
+  <img src="pic.JPG" width="1000" title="HealBot">
 </p>
