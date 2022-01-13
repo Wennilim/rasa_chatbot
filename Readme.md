@@ -26,7 +26,7 @@ Change directory to your folder
 
 3. rasa run -m models --enable-api --cors “*” --debug
 
-Then, click the index.html file.
+Then, click on the index.html file.
 
 <p align="center">
   <img src="pic.JPG" width="1000" title="HealBot">
